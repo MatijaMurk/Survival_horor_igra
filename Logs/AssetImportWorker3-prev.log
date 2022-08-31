@@ -1,0 +1,377 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'sr' Physical Memory: 32672 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/matij/Documents/UnityProjects/FPS_Igrice
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+1036
+Successfully changed project path to: C:/Users/matij/Documents/UnityProjects/FPS_Igrice
+C:/Users/matij/Documents/UnityProjects/FPS_Igrice
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 192.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/matij/Documents/UnityProjects/FPS_Igrice/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1295
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005292 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 166.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (665ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007161 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\matij\Documents\UnityProjects\FPS_Igrice\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\matij\Documents\UnityProjects\FPS_Igrice\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 166.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1428ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1236ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (757ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6457 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (4.7 MB). Loaded Objects now: 6888.
+Memory consumption went from 352.7 MB to 348.0 MB.
+Total: 4.658100 ms (FindLiveObjects: 0.515900 ms CreateObjectMapping: 0.163900 ms MarkObjects: 2.772300 ms  DeleteObjects: 1.204900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48500.437198 seconds.
+  path: Assets/3D_Assets/BasementProps/Floor/SM_Manhole_Body.fbx
+  artifactKey: Guid(34f898db02e00d9449e49d745228bbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Floor/SM_Manhole_Body.fbx using Guid(34f898db02e00d9449e49d745228bbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a349f6fa372bd911ae6886822cf7ea') in 0.779431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428599 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Debris/SM_Props_Debris_Insulation_02.fbx
+  artifactKey: Guid(81920d948105eba4aae6b7039eea976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Debris/SM_Props_Debris_Insulation_02.fbx using Guid(81920d948105eba4aae6b7039eea976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59797b445bfac9dd92b35870ec89c8bc') in 0.043219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_01_07.fbx
+  artifactKey: Guid(ea39135368363354f8b2d6b6a34ec697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_01_07.fbx using Guid(ea39135368363354f8b2d6b6a34ec697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7497c2bd2eb383085c69814ea9fb7c') in 0.039630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_02_01.fbx
+  artifactKey: Guid(8561523e9ee5ff5408826581326e8a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_02_01.fbx using Guid(8561523e9ee5ff5408826581326e8a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538e09864ddabc011a08b129a695a981') in 0.037053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_05.fbx
+  artifactKey: Guid(c0ec75fcc624faf4fb50bb4a4cc65130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_05.fbx using Guid(c0ec75fcc624faf4fb50bb4a4cc65130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb5578d784d12877c4c1803d67a6596') in 0.039267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_01_08.fbx
+  artifactKey: Guid(c05eb247bee9de24990ffef4bde541bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_01_08.fbx using Guid(c05eb247bee9de24990ffef4bde541bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e7d6a90c7730a51a40015522996971') in 0.039249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_02_04.fbx
+  artifactKey: Guid(de590d2941a560b4990e5e4938e2ffca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_02_04.fbx using Guid(de590d2941a560b4990e5e4938e2ffca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31b25ca23b966df064d31a4012ae020') in 0.039825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_01_05.fbx
+  artifactKey: Guid(926cafc6b04fc5248b6fb72c704d4d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/Pipes/SM_Water_Pipes_01_05.fbx using Guid(926cafc6b04fc5248b6fb72c704d4d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8881407cbbd96f60b956000bccd30db') in 0.039213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Debris/SM_Red_Brick_01.fbx
+  artifactKey: Guid(44d324900a0a40a4595d205fb7e9b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Debris/SM_Red_Brick_01.fbx using Guid(44d324900a0a40a4595d205fb7e9b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a47cc9250370b9265e63dd521550f7') in 0.037544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_02.fbx
+  artifactKey: Guid(ffb5431af45f5404da946af4c13b07e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_02.fbx using Guid(ffb5431af45f5404da946af4c13b07e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263b167b3ae6148eb3ac533a87023b1e') in 0.038231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_04.fbx
+  artifactKey: Guid(052f8bae2e5fe794489cb9bcb46a05df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_04.fbx using Guid(052f8bae2e5fe794489cb9bcb46a05df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a16be228dd3ab25557182ea32023c47') in 0.043257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_03.fbx
+  artifactKey: Guid(a5585e0480d02fa46b53cf773e48ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_03.fbx using Guid(a5585e0480d02fa46b53cf773e48ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc795b89ce5bfd97ce2e14a1058778c3') in 0.035785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.247957 seconds.
+  path: Assets/3D_Assets/BasementProps/Textures/Ceiling/1/CEILING_01_N.png
+  artifactKey: Guid(d05f6eb4be8f5554d8ad773102fb93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Textures/Ceiling/1/CEILING_01_N.png using Guid(d05f6eb4be8f5554d8ad773102fb93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c4de1373f256d548918eace9d95fef') in 0.029732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/High Definition RP/12.1.6/Particle System Shader Samples/Textures/Flipbook.psd
+  artifactKey: Guid(718228fcd21578a46810cbaaad6b7f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/High Definition RP/12.1.6/Particle System Shader Samples/Textures/Flipbook.psd using Guid(718228fcd21578a46810cbaaad6b7f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88871656cc798d8f95cffb707c35935a') in 0.035097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JP Environmental Asset Pack/Models/Foliage 2.FBX
+  artifactKey: Guid(7447eb077c417414c9d696399d0ac291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Models/Foliage 2.FBX using Guid(7447eb077c417414c9d696399d0ac291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fa97831a01268d5791db3e7849bf6d') in 0.067537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D_Assets/BasementProps/Textures/Ceiling/1/CEILING_01_R.png
+  artifactKey: Guid(cfa11fee6caab8940b9ad334a9801cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Textures/Ceiling/1/CEILING_01_R.png using Guid(cfa11fee6caab8940b9ad334a9801cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f732bdde2716019c0bea0c43091b78c5') in 0.019093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D_Assets/BasementProps/Textures/Ceiling/2/CEILING_02_N.png
+  artifactKey: Guid(93503429e940d8c49aedc16eab6a7bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Textures/Ceiling/2/CEILING_02_N.png using Guid(93503429e940d8c49aedc16eab6a7bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d45c0675c8a12dcd7ac82777e96e81e') in 0.026597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JP Environmental Asset Pack/Materials/Foliage 3/Foliage 3.mat
+  artifactKey: Guid(079c9919c8874554ea495e3896ccb229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Materials/Foliage 3/Foliage 3.mat using Guid(079c9919c8874554ea495e3896ccb229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed38c2036e72b4d01bfcc8113283381') in 0.039078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 547.416542 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(fe71d1fb6359bdd48a79eed4f91582fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(fe71d1fb6359bdd48a79eed4f91582fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23e135b918167a327afb51a2ab31c36') in 0.016355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(cba60b49a472847428c8f8bdc90f068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(cba60b49a472847428c8f8bdc90f068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad689286fdcf8bf1859c9025a30f207') in 0.017173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.300407 seconds.
+  path: Assets/Player/PlayerCharacter.prefab
+  artifactKey: Guid(1dc23a1d1e9028d4f8403ac83900c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/PlayerCharacter.prefab using Guid(1dc23a1d1e9028d4f8403ac83900c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23934669b8b1fe43e1e5d3f54f111794') in 0.213987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.337012 seconds.
+  path: Assets/Enemies/True_Horror_Creatures/Horror_creature6_v1.0/Materials/thc6_MaskMap.png
+  artifactKey: Guid(fe3d00a7dc60e33419e530777882fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/True_Horror_Creatures/Horror_creature6_v1.0/Materials/thc6_MaskMap.png using Guid(fe3d00a7dc60e33419e530777882fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc4a21d7ccb2b35eb6ada6e84b36582') in 0.018129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.898722 seconds.
+  path: Assets/3D_Assets/Concrete Pillar_ujikdbrva/Textures/Masks_2K_.png
+  artifactKey: Guid(261b563f7126dd14290b87857ca278a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Concrete Pillar_ujikdbrva/Textures/Masks_2K_.png using Guid(261b563f7126dd14290b87857ca278a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134fb3657e79bdd9517f864c618dbbfe') in 0.014476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.884368 seconds.
+  path: Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Textures/Masks_2K_.png
+  artifactKey: Guid(f071e1ca086f80849aa3cbded9a8c817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Textures/Masks_2K_.png using Guid(f071e1ca086f80849aa3cbded9a8c817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5b6762ecca141df997452b090d979f') in 0.010888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Textures/Normal_2K_LOD4.png
+  artifactKey: Guid(19870e0291031174eb6836ae4242343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Textures/Normal_2K_LOD4.png using Guid(19870e0291031174eb6836ae4242343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f080d5ee7415c421f496d4e2c6590a30') in 0.014004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.445150 seconds.
+  path: Assets/Enemies/Character Arachnid/Mesh/wire_115115115.mat
+  artifactKey: Guid(c2655f036a6c2ec4394bffcb95adf748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Character Arachnid/Mesh/wire_115115115.mat using Guid(c2655f036a6c2ec4394bffcb95adf748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908fe11b52869e0fb4143f4453dcd877') in 0.019583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.452349 seconds.
+  path: Assets/Scenes/Game/LightingData.asset
+  artifactKey: Guid(25f44510ff11eb84fa693802549f6b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/LightingData.asset using Guid(25f44510ff11eb84fa693802549f6b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a049448baf2ce4c08b85e1b828bc8a') in 0.008477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007348 seconds.
+  path: Assets/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Metal Lighted.mat
+  artifactKey: Guid(ad9313fb9df08c943873fb1f4fb3a662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Metal Lighted.mat using Guid(ad9313fb9df08c943873fb1f4fb3a662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f19372b9a3f86a6cbdfc18ed41ea65') in 0.027866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Metal Lighted.mat
+  artifactKey: Guid(4775d7a61c94a87418fe5ebc4f938090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Metal Lighted.mat using Guid(4775d7a61c94a87418fe5ebc4f938090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b12ccc8fc60a6c51b89eb325cef0bd') in 0.033933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Wood Lighted.mat
+  artifactKey: Guid(22e274cec6ea8674cb2d4015a3fe1770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Wood Lighted.mat using Guid(22e274cec6ea8674cb2d4015a3fe1770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e86e8e4cfb4fe9ea85a30a0b055f87') in 0.036853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.356493 seconds.
+  path: Assets/JP Environmental Asset Pack/Prefabs/Grass Patch Small.prefab
+  artifactKey: Guid(975ca1de1ebfe964491f7f9df16a60be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Prefabs/Grass Patch Small.prefab using Guid(975ca1de1ebfe964491f7f9df16a60be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a166ec1d5e14f63db3890927b5b5997') in 0.047721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JP Environmental Asset Pack/Materials/Grass/Grass Small.mat
+  artifactKey: Guid(be1c4bfd0b0545e42b03ccbd1b2d480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Materials/Grass/Grass Small.mat using Guid(be1c4bfd0b0545e42b03ccbd1b2d480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866d50b510e6307e07e44945da5503ab') in 0.029714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.268962 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_Holder.fbx
+  artifactKey: Guid(7abb613b44ae30148a669cf3bbe127b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WH_Pipe_Holder.fbx using Guid(7abb613b44ae30148a669cf3bbe127b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48de50b425f688b26dfc9e4cb4bff61') in 0.052572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3D_Assets/BasementProps/Other/SM_Table.fbx
+  artifactKey: Guid(7020300803961f14c9ca0c44e70d5569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Other/SM_Table.fbx using Guid(7020300803961f14c9ca0c44e70d5569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aae8085deca0b49c816c9094e12ccb1') in 0.049107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WaterHeater_Set_01.fbx
+  artifactKey: Guid(efaf8cd7b66705c439a00a73a538749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/BasementProps/Props/Water/WaterHatcher/SM_WaterHeater_Set_01.fbx using Guid(efaf8cd7b66705c439a00a73a538749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b39c27ce19d0e560b91afbca88d7e48') in 0.057405 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

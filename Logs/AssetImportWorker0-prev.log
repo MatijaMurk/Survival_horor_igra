@@ -1,0 +1,257 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'sr' Physical Memory: 32672 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/matij/Documents/UnityProjects/FPS_Igrice
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1036
+Successfully changed project path to: C:/Users/matij/Documents/UnityProjects/FPS_Igrice
+C:/Users/matij/Documents/UnityProjects/FPS_Igrice
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 167.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/matij/Documents/UnityProjects/FPS_Igrice/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1295
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004203 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 157.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (615ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006878 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\matij\Documents\UnityProjects\FPS_Igrice\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\matij\Documents\UnityProjects\FPS_Igrice\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 166.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1371ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1187ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (729ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6457 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (4.7 MB). Loaded Objects now: 6888.
+Memory consumption went from 352.7 MB to 348.0 MB.
+Total: 4.390500 ms (FindLiveObjects: 0.665800 ms CreateObjectMapping: 0.179100 ms MarkObjects: 2.567800 ms  DeleteObjects: 0.976900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46946.051228 seconds.
+  path: Assets/3D_Assets/Medkit/Medkit.prefab
+  artifactKey: Guid(9147285536ef54c47a2b6aeab6237194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Medkit/Medkit.prefab using Guid(9147285536ef54c47a2b6aeab6237194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211537a97d141bd6772c57e35bf3fa17') in 0.700390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 342.477894 seconds.
+  path: Assets/3D_Assets/Rusty Metal Shelf_vhtmaifaw
+  artifactKey: Guid(d018f5960c347eb4e91aba704c2d7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Rusty Metal Shelf_vhtmaifaw using Guid(d018f5960c347eb4e91aba704c2d7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91651f3dbdaead0d7ecad130555ed726') in 0.005067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.083433 seconds.
+  path: Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw
+  artifactKey: Guid(03ef612b735e69d48908b1cb8622cee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw using Guid(03ef612b735e69d48908b1cb8622cee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0edf6e11f1c5ddcd1c65819600648d') in 0.005660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.701004 seconds.
+  path: Assets/3D_Assets/Concrete Pillar_ujikdbrva
+  artifactKey: Guid(50ba0dd87409c4042918e3a95cd72f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Concrete Pillar_ujikdbrva using Guid(50ba0dd87409c4042918e3a95cd72f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361b3a0a4d35977c362b14b1ad1b4c20') in 0.004991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.470908 seconds.
+  path: Assets/3D_Assets/Rusty Metal Shelf_vhtmaifaw/Prefabs
+  artifactKey: Guid(05611d7f83b776f48bf28f8f5786a376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Rusty Metal Shelf_vhtmaifaw/Prefabs using Guid(05611d7f83b776f48bf28f8f5786a376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd5654e5bf4fa7255839acf58b6f862') in 0.001946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040817 seconds.
+  path: Assets/3D_Assets/Rusty Metal Shelf_vhtmaifaw/Prefabs/Rusty Metal Shelf_vhtmaifaw.prefab
+  artifactKey: Guid(36d39e811f3b48f49980e3d899f9ea3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Rusty Metal Shelf_vhtmaifaw/Prefabs/Rusty Metal Shelf_vhtmaifaw.prefab using Guid(36d39e811f3b48f49980e3d899f9ea3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8252799f242f208a63284a617a92d04b') in 0.039491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.697739 seconds.
+  path: Assets/3D_Assets/Concrete Pillar_ujikdbrva/Prefabs
+  artifactKey: Guid(b1d5e1134f24a1c419ba2777bb048291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Concrete Pillar_ujikdbrva/Prefabs using Guid(b1d5e1134f24a1c419ba2777bb048291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c416797205a93227d40c6952c68309a7') in 0.001803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005195 seconds.
+  path: Assets/3D_Assets/Concrete Pillar_ujikdbrva/Prefabs/Concrete Pillar_ujikdbrva.prefab
+  artifactKey: Guid(8441b0ef97f8be04cacae1e63da3e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Concrete Pillar_ujikdbrva/Prefabs/Concrete Pillar_ujikdbrva.prefab using Guid(8441b0ef97f8be04cacae1e63da3e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab01f6afb2d715d0b391ea00ae59e72f') in 0.023078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.826594 seconds.
+  path: Assets/3D_Assets/Concrete Pillar_ujikdbrva/Prefabs/Concrete Pillar_ujikdbrva.prefab
+  artifactKey: Guid(8441b0ef97f8be04cacae1e63da3e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Concrete Pillar_ujikdbrva/Prefabs/Concrete Pillar_ujikdbrva.prefab using Guid(8441b0ef97f8be04cacae1e63da3e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb986b241471e0ddd0fe96f2b003822') in 0.020606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.472383 seconds.
+  path: Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Prefabs
+  artifactKey: Guid(5fea035aa4c003b4cbee1f28b9b0c78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Prefabs using Guid(5fea035aa4c003b4cbee1f28b9b0c78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cef16786ef74d44fb0a07f82fa60309') in 0.001757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009279 seconds.
+  path: Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Prefabs/Modular Stained Pillar Kit_vl3nferdw_Var1.prefab
+  artifactKey: Guid(4057c2311edc5634ea38dac532cdd217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Prefabs/Modular Stained Pillar Kit_vl3nferdw_Var1.prefab using Guid(4057c2311edc5634ea38dac532cdd217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1029017ed464a1fd9bdba688c55a3398') in 0.037149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Prefabs/Modular Stained Pillar Kit_vl3nferdw_Var3.prefab
+  artifactKey: Guid(43fcdcc036a274f468a7484779796925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Modular Stained Pillar Kit_vl3nferdw/Prefabs/Modular Stained Pillar Kit_vl3nferdw_Var3.prefab using Guid(43fcdcc036a274f468a7484779796925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33cec2c593cdc38cb2756f6df87dc9e') in 0.054797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.945909 seconds.
+  path: Assets/3D_Assets/Cardboard Boxes Pack_uewlfg2va/Prefabs/Cardboard Boxes Pack_uewlfg2va_Var1.prefab
+  artifactKey: Guid(0f7ee6e050744bb41a89ddf1a8cc1013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Cardboard Boxes Pack_uewlfg2va/Prefabs/Cardboard Boxes Pack_uewlfg2va_Var1.prefab using Guid(0f7ee6e050744bb41a89ddf1a8cc1013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0e0f00bd2682471631e9a43d24fafd') in 0.046357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/3D_Assets/Cardboard Boxes Pack_uewlfg2va/Prefabs/Cardboard Boxes Pack_uewlfg2va_Var4.prefab
+  artifactKey: Guid(7f079e6ed38e8e54f9db559f61ad2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Cardboard Boxes Pack_uewlfg2va/Prefabs/Cardboard Boxes Pack_uewlfg2va_Var4.prefab using Guid(7f079e6ed38e8e54f9db559f61ad2005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05129204b8224b3c3b3f04032a2ea8e') in 0.044525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/3D_Assets/Cardboard Boxes Pack_uewlfg2va/Prefabs/Cardboard Boxes Pack_uewlfg2va_Var6.prefab
+  artifactKey: Guid(55755a7dc5741e041ada562ce280766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Assets/Cardboard Boxes Pack_uewlfg2va/Prefabs/Cardboard Boxes Pack_uewlfg2va_Var6.prefab using Guid(55755a7dc5741e041ada562ce280766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34b66e4100432aa77f584cace856bd9') in 0.074893 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
